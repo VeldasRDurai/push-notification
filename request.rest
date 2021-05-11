@@ -1,0 +1,14 @@
+POST http://localhost:3000/push
+Content-Type: application/json
+
+{
+    "name": "Veldas R Durai",
+    "title": "Push Notification",
+    "message": "some one pushed notifictaion",
+    "url": "https://veldasrdurai.github.io/whatsapp-exported-message-viewer",
+    "ttl": 36000,
+    "icon": "https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/email_add.png",
+    "badge": "https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/128/email_add.png",
+    "data":"Hello New World",
+    "tag": "Book Story"
+}
